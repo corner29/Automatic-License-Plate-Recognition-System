@@ -41,11 +41,6 @@ Install dependencies
   pip install -r requirements.txt
 ```
 
-Make predictions
-
-```bash
-  python src/main.py --image_path path/to/licensePlate
-```
 
 ![YOLOv5 Mosaic](media/media_images_Validation_9_0.jpg)
 
