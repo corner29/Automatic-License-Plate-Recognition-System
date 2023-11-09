@@ -6,9 +6,6 @@ This is our solution repo hosting the code and approach used for Mosaic'21 [PS2]
 > With the ever-increasing need for transportation globally, the amount of vehicles on the road is piling everyday. The need for automatic traffic monitoring has never been so high. Your task is to implement an automatic number plate recognizer in an **unconstrained condition** that considers occlusion, poor quality of images, and **other spatial variations** in image data.
 <br>
 
-<!-- ![Indian License Plate Explainer](media/IND-license-plate-en.jpg) -->
-<img width = 700 height = 500 src = "media/IND-license-plate-en.jpg">
-
 ## Approach & Optimizations
 
 The whole pipeline is a 3 stage process:
@@ -49,14 +46,6 @@ Make predictions
 ```bash
   python src/main.py --image_path path/to/licensePlate
 ```
-
-## Procedure
-
-![Overall Pipeline](media/display-pipeline.png)
-<br>
-<br>
-
-## Training Metrics & Snapshots
 
 ![YOLOv5 Mosaic](media/media_images_Validation_9_0.jpg)
 
